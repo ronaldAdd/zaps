@@ -4,13 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --testTimeout 10000"
+    "test": "mocha --recursive"
+  },
+  "engines": {
+    "node": ">=8.10.0",
+    "npm": ">=5.6.0"
   },
   "dependencies": {
     "zapier-platform-core": "12.0.3"
   },
   "devDependencies": {
-    "jest": "^26.6.3"
-  },
+    "mocha": "^5.2.0",
+    "should": "^13.2.0"
+  },  
   "private": true
 }
